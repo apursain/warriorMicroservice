@@ -5,7 +5,6 @@ C:\Users\DebjaniMaji\Source\Repos\WebApplication2\WebApplication2\bin\Debug\netc
 C:\Users\DebjaniMaji\Source\Repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.1\WebApplication2.runtimeconfig.json
 C:\Users\DebjaniMaji\Source\Repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.1\WebApplication2.runtimeconfig.dev.json
 C:\Users\DebjaniMaji\Source\Repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.1\WebApplication2.dll
-C:\Users\DebjaniMaji\Source\Repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.1\WebApplication2.csprojAssemblyReference.cache
 C:\Users\DebjaniMaji\Source\Repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.1\WebApplication2.RazorAssemblyInfo.cache
 C:\Users\DebjaniMaji\Source\Repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.1\WebApplication2.RazorAssemblyInfo.cs
 C:\Users\DebjaniMaji\Source\Repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.1\WebApplication2.RazorTargetAssemblyInfo.cache
@@ -13,3 +12,4 @@ C:\Users\DebjaniMaji\Source\Repos\WebApplication2\WebApplication2\bin\Debug\netc
 C:\Users\DebjaniMaji\Source\Repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
 C:\Users\DebjaniMaji\Source\Repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.1\WebApplication2.dll
 C:\Users\DebjaniMaji\Source\Repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.1\WebApplication2.pdb
+C:\Users\DebjaniMaji\Source\Repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.1\WebApplication2.csprojAssemblyReference.cache
