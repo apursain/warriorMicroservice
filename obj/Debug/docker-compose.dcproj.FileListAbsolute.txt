@@ -3,3 +3,8 @@ C:\Users\DebjaniMaji\Source\Repos\WebApplication2\bin\Debug\WebApplication2.pdb
 C:\Users\DebjaniMaji\Source\Repos\WebApplication2\obj\Debug\docker-compose.dcprojAssemblyReference.cache
 C:\Users\DebjaniMaji\Source\Repos\WebApplication2\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\DebjaniMaji\Source\Repos\WebApplication2\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\APURBASAIN\Documents\GitHub\warriorMicroservice\bin\Debug\WebApplication2.dll
+C:\Users\APURBASAIN\Documents\GitHub\warriorMicroservice\bin\Debug\WebApplication2.pdb
+C:\Users\APURBASAIN\Documents\GitHub\warriorMicroservice\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+C:\Users\APURBASAIN\Documents\GitHub\warriorMicroservice\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\APURBASAIN\Documents\GitHub\warriorMicroservice\obj\Debug\docker-compose.dcproj.CopyComplete

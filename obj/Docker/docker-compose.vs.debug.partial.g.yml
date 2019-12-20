@@ -10,8 +10,8 @@ services:
       - NUGET_PACKAGES=C:\.nuget\packages
       #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_webapplication2$
     volumes:
-      - C:\Users\DebjaniMaji\Source\Repos\WebApplication2\WebApplication2:C:\app
-      - C:\Users\DebjaniMaji\onecoremsvsmon:C:\remote_debugger:ro
+      - C:\Users\APURBASAIN\Documents\GitHub\warriorMicroservice\WebApplication2:C:\app
+      - C:\Users\APURBASAIN\onecoremsvsmon:C:\remote_debugger:ro
 #$nuget_volume_mapping_webapplication2$
     entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /timeout:2147483646
     labels:

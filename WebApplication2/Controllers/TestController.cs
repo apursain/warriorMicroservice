@@ -36,22 +36,30 @@ namespace WebApplication2.Controllers
             return new OkObjectResult(lstTest);
         }
 
-        //// POST: api/Test
-        //[HttpPost]
-        //public void Post([FromBody] string value)
-        //{
-        //}
+        [HttpPost("getuserinfo")]
+       
+        public IActionResult GetUser(int i)
+        {
+            int p = 0;
+            return Ok(p);
+        }
 
-        //// PUT: api/Test/5
-        //[HttpPut("{id}")]
-        //public void Put(int id, [FromBody] string value)
-        //{
-        //}
+            //// POST: api/Test
+            //[HttpPost]
+            //public void Post([FromBody] string value)
+            //{
+            //}
 
-        //// DELETE: api/ApiWithActions/5
-        //[HttpDelete("{id}")]
-        //public void Delete(int id)
-        //{
-        //}
-    }
+            //// PUT: api/Test/5
+            //[HttpPut("{id}")]
+            //public void Put(int id, [FromBody] string value)
+            //{
+            //}
+
+            //// DELETE: api/ApiWithActions/5
+            //[HttpDelete("{id}")]
+            //public void Delete(int id)
+            //{
+            //}
+        }
 }
