@@ -7,8 +7,10 @@ using Microsoft.AspNetCore.Mvc;
 using WebApplication2.Model;
 using WebApplication2.Repository;
 
+
 namespace WebApplication2.Controllers
 {
+    
     [Route("api/[controller]")]
     [ApiController]
     public class TestController : ControllerBase
@@ -24,7 +26,12 @@ namespace WebApplication2.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            var lstTest = testRepository.GetTests();
+
+
+      
+
+
+        var lstTest = testRepository.GetTests();
             return new OkObjectResult(lstTest);
         }
 

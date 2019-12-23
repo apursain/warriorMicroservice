@@ -15,6 +15,7 @@ using WebApplication2.Repository;
 using Swashbuckle.AspNetCore.Swagger;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using Swashbuckle.AspNetCore.SwaggerUI;
+using System.Data.SqlClient;
 
 namespace WebApplication2
 {
@@ -37,7 +38,7 @@ namespace WebApplication2
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
-            services.AddDbContext<DbContexts.TestContext>(o => o.UseSqlServer(Configuration.GetConnectionString("TestConection")));
+            services.AddDbContext<DbContexts.TestContext>(o => o.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddTransient<ITestRepository, TestRepository>();
 
@@ -74,6 +75,14 @@ namespace WebApplication2
             });
             app.UseHttpsRedirection();
             app.UseMvc();
+        }
+
+        public SqlConnection GetOpenConnection()
+        {
+            string cs = Configuration.GetConnectionString("DefaultConnection");
+            SqlConnection connection = new SqlConnection(cs);
+            connection.Open();
+            return connection;
         }
     }
 }

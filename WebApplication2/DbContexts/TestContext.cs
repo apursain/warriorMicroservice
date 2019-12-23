@@ -17,20 +17,21 @@ namespace WebApplication2.DbContexts
 
         protected override void OnModelCreating (ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Test>().HasData(
-                new Test
-                {
-                    Id = 1,
-                    Name = "test1",
-                    description="test1 description",
-                },
-                new Test
-                {
-                    Id = 2,
-                    Name = "test2",
-                    description = "test2 description",
-                }
-            );
+            //modelBuilder.Entity<Test>().HasData(
+            //    new Test
+            //    {
+            //        Id = 1,
+            //        Name = "test1",
+            //        description = "test1 description",
+            //    },
+            //    new Test
+            //    {
+            //        Id = 2,
+            //        Name = "test2",
+            //        description = "test2 description",
+            //    }
+            //);
+
         }
     }
 
