@@ -38,7 +38,7 @@ namespace WebApplication2
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
-            services.AddDbContext<DbContexts.TestContext>(o => o.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+           // services.AddDbContext<DbContexts.TestContext>(o => o.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddTransient<ITestRepository, TestRepository>();
 
@@ -53,6 +53,12 @@ namespace WebApplication2
                     Contact = new Contact() { Name = "Warrior on Cloud", Email = "apursain@in.ibm.com", Url = "http://localhost:60425" }
                 });
             });
+
+            services.AddSingleton<ITestRepository, TestRepository>(serviceProvider =>
+            {
+                return new TestRepository(Configuration.GetConnectionString("DefaultConnection"));
+            });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
